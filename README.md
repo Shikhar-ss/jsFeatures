@@ -7,8 +7,8 @@ trying out java script features
 **A NOTE ON EVENT LOOP**
 
 Being sigle-threaded, js cannot conduct all computations simultaneuosly.
-It need to keep track of all timers and events, and also
-prioritize there order of execution.
+It need to keep track of all ASYNC callbacks, timers, and events.
+It also prioritize there order of execution.
 
 For that purpose we have Event loop.
 which is basically a repetetive cycle which switches through the processing of different computations.
